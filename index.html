@@ -7,17 +7,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<div class="race-header">
-  <div class="race-number" id="raceNumber">0R</div>
-  <div>
-    <div class="race-title" id="raceTitle"></div>
-    <div class="race-info" id="raceInfo"></div>
-  </div>
-</div>
-
-<div id="errorMessage" class="error"></div>
-
+  
 <div class="button-group">
   <button onclick="loadJsonFile()">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -29,6 +19,16 @@
   </button>
   <input type="file" id="jsonFileInput" accept=".json" style="display: none;">
 </div>
+  
+<div class="race-header">
+  <div class="race-number" id="raceNumber">0R</div>
+  <div>
+    <div class="race-title" id="raceTitle"></div>
+    <div class="race-info" id="raceInfo"></div>
+  </div>
+</div>
+
+<div id="errorMessage" class="error"></div>
 
 <div class="container">
   <div class="left-column">
