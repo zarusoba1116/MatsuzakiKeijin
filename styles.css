@@ -167,11 +167,11 @@ body {
     color: #fff; /* デフォルトで白文字 */
   }
   /* 番号ごとの背景色 */
-  td.number-1 { background-color: #e4e5ea; color: #000; } /* 灰色 */
-  td.number-2 { background-color: #2b2b2e; } /* 黒 */
-  td.number-3 { background-color: #bf0115; } /* 赤 */
-  td.number-4 { background-color: #003abf; } /* 青 */
-  td.number-5 { background-color: #ffce27; color: #000; } /* 黄色 */
+  td.number-1 { background-color: #FF5D2A; }
+  td.number-2 { background-color: #25BC18; }
+  td.number-3 { background-color: #FF52DE; }
+  td.number-4 { background-color: #FFDD00; color: #000; }
+  td.number-5 { background-color: #8E25FF; }
   td.number-6 { background-color: #008a00; } /* 緑 */
   td.number-7 { background-color: #d35e00; } /* オレンジ */
   td.number-8 { background-color: #d40565; } /* ピンク */
@@ -187,11 +187,11 @@ body {
     color: #fff;
     font-size: 20px;
   }
-  .number-box.number-1 { background-color: #e4e5ea; color: #000; }
-  .number-box.number-2 { background-color: #2b2b2e; }
-  .number-box.number-3 { background-color: #bf0115; }
-  .number-box.number-4 { background-color: #003abf; }
-  .number-box.number-5 { background-color: #ffce27; color: #000; }
+  .number-box.number-1 { background-color: #FF5D2A; }
+  .number-box.number-2 { background-color: #25BC18; }
+  .number-box.number-3 { background-color: #FF52DE; }
+  .number-box.number-4 { background-color: #FFDD00; color: #000; }
+  .number-box.number-5 { background-color: #8E25FF; }
   .number-box.number-6 { background-color: #008a00; }
   .number-box.number-7 { background-color: #d35e00; }
   .number-box.number-8 { background-color: #d40565; }
